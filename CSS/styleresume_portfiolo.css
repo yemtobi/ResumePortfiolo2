@@ -1,0 +1,255 @@
+body
+{
+ color: black;
+ background-color: darkgrey;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ min-height: 100vh;
+}
+
+
+#navigationbar
+{
+overflow:hidden;
+background-color: antiquewhite;
+float: left;
+display: block;
+color: black;
+text-align: center;
+margin-top: 8px;
+padding-top: 20px;
+padding-bottom: 5px;
+text-decoration-line: none;
+text-decoration: none;
+font-family: "Helvetica", sans-serif;
+font-size: 15px;
+font-weight: 600;
+height: 40px;
+width: 100%;  
+}
+
+
+#navigationbar a:hover
+{
+background-color: dodgerblue;
+color: whitesmoke;
+}
+
+
+#navigationbar a.active
+{
+background-color: dodgerblue;
+color: black;
+}
+
+
+.MainBox
+{
+position: relative;
+width: 100%;
+max-width: 1250px;
+min-height: 1000px;
+margin: 50x;
+background-color: black;
+display: grid;
+grid-template-columns: 2fr 1.05fr;
+grid-template-rows: auto;
+grid-gap: 2px;
+margin: 0 auto;
+box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+}
+
+
+.MainBox .LeftBox
+{
+position: relative;
+background-color: antiquewhite;
+padding: 40px;
+}
+
+
+.font1
+{
+text-align: center;
+font-family: "Lucida Handwriting";
+font-size: 28px;
+letter-spacing: 2px;
+word-spacing: 10px;
+word-wrap: break-word;
+text-shadow: 1px 1px tomato;
+padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+
+#font2
+{
+text-align: justify;
+font-family: "Calibri Light", serif;
+font-size: 16px;
+}
+
+
+#Icon
+{
+display: inline-block;
+width: 30px;
+font-size: 20px;
+color: black;
+margin-left: 0;
+}
+
+
+#lineheight
+{
+line-height: 1.3;
+text-align: justify-all;
+margin: 1px;
+padding: 15px;
+}
+
+#font3
+{
+text-align: justify;
+font-family: "Calibri Light", serif;
+font-size: 1.8em;
+font-weight: 600;
+text-shadow: 2px 1px tomato;
+margin-bottom: 0.5px;
+margin-top: 3px;
+}
+
+
+#font4
+{
+text-align: justify;
+font-family: "Calibri Light", serif;
+font-size: 18px;
+margin-bottom: 0.2px;
+margin-top: 5px;
+}
+
+#straight
+{
+text-align: justify;
+font-family: "Calibri Light", serif;
+font-size: 16px;
+padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+
+.MainBox .RightBox
+{
+position: relative;
+background-color: #99CCFF;
+padding: 40px;
+}
+
+
+.ProfileText
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 3px solid tomato;
+}
+
+
+.ProfileText .imgBox
+{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+
+.ProfileText .imgBox img
+{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    border border-radius: 50%;
+    overflow: hidden;
+}
+
+
+#font5
+{
+text-align: center;
+font-family: "Calibri Light", serif;
+font-size: 18px;
+margin-bottom: 1px;
+margin-top: 0px;
+    padding-top: 0px;
+}
+
+
+.ContactText
+{
+padding-top: 40px;
+}
+
+
+#font6
+{
+text-align: left;
+font-family: "Lucida Handwriting";
+font-size: 1.5em;
+letter-spacing: 2px;
+word-spacing: 1px;
+word-wrap: break-word;
+text-shadow: 1px 1px tomato;
+padding-bottom: 0px;
+margin-bottom: 0px;
+}
+
+
+.EducationText
+{
+padding-top: 40px;
+}
+
+
+.CertificationText
+{
+padding-top: 40px;
+}
+
+#certification table, th, td
+{
+padding-top: 40px;
+border: 1px solid;
+width: 160px;
+height:50px;
+color: black;
+display:block;
+text-align: left;
+vertical-align: middle;
+float: left;
+text-decoration: none;
+padding: 5px 5px;
+}
+
+
+.SkillsText
+{
+padding-top: 40px;
+}
+
+
+#FooterBox
+{
+position: relative;
+background-color: #FCDDD8;
+padding: 40px;
+width: 143%;
+text-align: center;
+}
+
+

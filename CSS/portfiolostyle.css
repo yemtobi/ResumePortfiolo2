@@ -1,0 +1,419 @@
+body
+{
+ color: black;
+ background-color: #ADDFFF;
+}
+
+/* Page 1 */
+
+
+#firstbox
+{
+ height: 650px;
+ width: 1300px;
+ text-align: center;
+ background-color: whitesmoke;
+ padding-top: 50px;
+ font-family:"American Typewriter";
+ font-family: cursive;
+ font-size: 25;
+ overflow: hidden;
+}
+
+
+#navigationbar
+{
+overflow:hidden;
+background-color: #e9e9e9;
+float: left;
+display: block;
+color: black;
+text-align: left;
+margin-top: 8px;
+padding-top: 20px;
+padding-bottom: 5px;
+text-decoration-line: none;
+text-decoration: none;
+font-family: "Helvetica", sans-serif;
+font-size: 18.5px;
+font-weight: 600;
+height: 50px;
+width: 1300px;  
+}
+
+
+.navigationbar a:hover
+{
+background-color: dodgerblue;
+color: whitesmoke;
+    font font-weight: 500;
+}
+
+
+.navigationbar a.active
+{
+background-color: dodgerblue;
+color: black;
+}
+
+.navigationbar .icon
+{
+display: none;
+}
+
+.navigationbar input[type=text]
+{
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 18.5px;
+  font-weight: 600;
+}
+
+.navigationbar a::after
+{
+content: '';
+height: 50px;
+width: 1300px;  
+}
+
+#secondbox
+{
+ height: 300px;
+ width: 1300px;
+ text-align: center;
+ background-color: beige;
+ padding-top: 10px;
+ font-family:"American Typewriter";
+ font-family: cursive;
+ font-size: 25;
+    padding-top: 25px;
+    overflow: hidden;
+    grid-row-gap: 20px;
+}
+
+
+.imgBox
+{
+ position: absolute;
+ right: 300px;
+ bottom: 170px;
+ width: 610px;
+ height: 210px;
+ border-radius: 10%;
+ overflow: hidden;
+}
+
+
+.imgBox img
+{
+ position: absolute;
+ width: 310px;
+ height: 250px;
+ border border-radius: 20%;
+ overflow: hidden;
+}
+
+
+.font1
+{
+text-align: left;
+padding-left: 23px;
+font-family: "Helvetica", sans-serif;
+font-size: 38px;
+font-weight: 600;
+text-shadow: 2px 2px #AEA600;
+letter-spacing: 2px;
+word-spacing: 10px;
+word-wrap: break-word;
+padding-bottom: 0px;
+margin-bottom: 0px;
+}
+
+
+.font2
+{
+font-family: "Calibri Light", serif;
+font-size: 18.5px;
+text-align: justify;
+margin-bottom: 0.2px;
+margin-top: 5px;
+padding-left: 20px;
+}
+
+
+#thirdbox
+{
+ height: 550px;
+ width: 1300px;
+ text-align: center;
+ background-color: dodgerblue;
+ padding-top: 10px;
+ font-family:"American Typewriter";
+ font-family: cursive;
+ font-size: 25;
+ padding-top: 10px;
+ overflow: hidden;
+ grid-row-gap: 20px;
+}
+
+
+.font3
+{
+font-family: "Helvetica", sans-serif;
+font-size: 38px;
+font-weight: 600;
+text-shadow: 2px 2px #F9EE00;
+margin-bottom: 0.2px;
+margin-top: 5px;
+padding-left: 100px;
+}
+
+
+.font4
+{
+color: whitesmoke;
+font-family: "Calibri Light", serif;
+font-size: 18.5px;
+margin-bottom: 0.2px;
+margin-top: 5px;
+padding-left: 100px;
+}
+
+
+.font5
+{
+color: #F9EE00;
+text-align: left;
+font-family: "Helvetica", sans-serif;
+font-size: 50px;
+word-spacing: 350px;
+word-wrap: break-word;
+margin-bottom: 0.2px;
+margin-top: 5px;
+padding-left: 30%;
+}
+
+.font6
+{
+text-align: left;
+font-family: "Helvetica", sans-serif;
+font-size: 15px;
+padding-left: 30%;
+}
+
+
+#footbox1
+{
+height: 200px;
+width: 205px;
+float: left;
+text-align: center;
+background-color: #044BD6;
+font-size: 12px;
+margin-left: 10px;
+}
+
+#footbox2
+{
+height: 200px;
+width: 205px;
+position: relative;
+float: left;
+text-align: center;
+background-color: #04C7FC;
+font-size: 12px;
+margin-left: 10px;
+}
+
+
+#footbox3
+{
+height: 200px;
+width: 205px;
+position: relative;
+float: left;
+text-align: center;
+background-color: #FFCA57;
+font-size: 12px;
+margin-left: 10px;
+}
+
+
+#footbox4
+{
+height: 200px;
+width: 205px;
+position: relative;
+float: left;
+text-align: center;
+background-color: #FFB27A;
+font-size: 12px;
+margin-left: 10px;
+}
+
+
+#Icon
+{
+font-family: "Helvetica", sans-serif;
+font-size: 45px;
+font-weight: 600;
+text-shadow: 2px 2px #F9EE00;
+color: black;
+text-align: center;
+margin-left: 0px;
+padding-left: 0px;
+}
+
+
+#copyrights
+{
+color: #F9EE00;
+font-size: 20px;
+font-weight: 200;
+margin-top: 20px;
+padding-top: 50px;
+    bottom: 0px;
+}
+
+
+.font7
+{
+text-align: center;
+font-family: "Helvetica", sans-serif;
+font-size: 21px;
+font-weight: 600;
+ }
+
+
+/* Page 1 */
+
+
+#contactnavbar
+{
+overflow:hidden;
+background-color: #e9e9e9;
+float: left;
+display: block;
+color: black;
+text-align: center;
+margin-top: 8px;
+padding-top: 20px;
+padding-bottom: 5px;
+text-decoration-line: none;
+text-decoration: none;
+font-family: "Helvetica", sans-serif;
+font-size: 18.5px;
+font-weight: 600;
+height: 50px;
+width: 1300px;  
+}
+
+
+#contactnavbar a:hover
+{
+background-color: dodgerblue;
+color: whitesmoke;
+}
+
+
+#contactnavbar a.active
+{
+background-color: dodgerblue;
+color: black;
+}
+
+
+#contactbox1
+{
+ height: 1200px;
+ width: 1300px;
+ text-align: center;
+ background-color: whitesmoke;
+ padding-top: 50px;
+ font-family:"American Typewriter";
+ font-family: cursive;
+ font-size: 25;
+ overflow: hidden;
+}
+
+#contactbox2
+{
+ height: 1200px;
+ width: 1300px;
+ text-align: left;
+ background-color: floralwhite;
+ padding-left: 30px;
+ font-family:"Aptos Display";
+ font-family: sans-serif;
+ font-size: 20px;
+ }
+
+
+.label1
+{
+ background-color: chocolate;
+ color: black;
+ margin: 8px 0;
+ border: none;
+ cursor: pointer;
+ padding: 12px 20px;
+ width: 40%;
+ opacity:0.9;
+ font-size: 19px;
+}
+
+.labelinput
+{
+display: inline-block;
+color: ghostwhite;
+padding: 15px;
+align-items: left;
+justify-content: left;
+flex-direction: column;
+height: 8px;
+background-color: #ADDFFF;
+width: 90%;
+margin: 5px 0 22px 0;
+border: none;
+border-color: deeppink;
+font-size: 19px;
+    line-height: 0.5;
+}
+
+
+#font8
+{
+text-align: left;
+font-family: "Calibri Light", serif;
+font-size: 25px;
+text-shadow: 2px 1px #ADDFFF;
+margin-bottom: 0.5px;
+margin-top: 3px;
+}
+
+.font9
+{
+font-family: "Calibri Light", serif;
+font-size: 22px;
+text-align: left;
+margin-bottom: 0.2px;
+margin-top: 3px;
+}
+
+
+ContactText
+{
+padding-top: 5px;
+}
+
+
+#lineheight
+{
+line-height: 0.5;
+text-align: justify-all;
+margin: 1px;
+padding: 5px;
+}
